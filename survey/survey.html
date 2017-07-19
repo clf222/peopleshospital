@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hospital Website Survey</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <h1>Hospital Website Survey</h1>
+      <form>
+        <fieldset>
+          <legend>How do you access the web most frequently?</legend>
+          <p>
+            <input type="radio" name="access" id="desktop computer" value="desktop">
+            <label for="desktop computer">Desktop Computer</label>
+          </p>
+          <p>
+            <input type="radio" name="access" id="smartphone" value="smartphone">
+            <label for="smartphone">Smart Phone</label>
+          </p>
+          <p>
+            <input type="radio" name="access" id="laptop" value="laptop">
+            <label for="laptop">Laptop</label>
+          </p>
+          <p>
+            <input type="radio" name="access" id="tablet" value="tablet">
+            <label for="tablet">Tablet</label>
+          </p>
+        </fieldset>
+
+        <div class="wrap">
+
+            <label class="statement">Rate you comfort level with technology</label>
+            <ul class='likert'>
+              <li>
+                <input type="radio" name="likert" value="hate">
+                <label>I hate technology.</label>
+              </li>
+              <li>
+                <input type="radio" name="likert" value="uncomfortable">
+                <label>I'm uncomfortable with it but I try.</label>
+              </li>
+              <li>
+                <input type="radio" name="likert" value="neutral">
+                <label>I can take it or leave it.</label>
+              </li>
+              <li>
+                <input type="radio" name="likert" value="Somewhat comfortable">
+                <label>I'm somewhat comfortable.</label>
+              </li>
+              <li>
+                <input type="radio" name="likert" value="enjoy">
+                <label>I enjoy using technology</label>
+              </li>
+            </ul>
+        </div>
+
+        <fieldset>
+          <legend>Do you now or have you ever experienced any limitations on how you can interact with digital content based on sight, hearing, cognitive issues , mobility, or connection speed? </legend>
+          <p>
+            <input type="radio" name="limits" id="no limit" value="none">
+            <label for="no limit">No</label>
+          </p>
+          <p>
+            <input type="radio" name="limits" id="limited" value="some">
+            <label for="limited">Yes</label>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Do you now or have you ever experienced any limitations on how you can interact with digital content based on sight, hearing, cognitive issues , mobility, or connection speed? </legend>
+          <p>
+            <input type="radio" name="limits" id="no-limit" value="none">
+            <label for="no-limit">No</label>
+          </p>
+          <p>
+            <input type="radio" name="limits" id="limited" value="some">
+            <label for="limited">Yes</label>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>What type of limits, if any have you experienced?</legend>
+          <p>
+            <input type="checkbox" name="types" id="visual" value="visual">
+            <label for="visual">Visual</label>
+          </p>
+          <p>
+            <input type="checkbox" name="types" id="auditory" value="auditory">
+            <label for="auditory">Auditory</label>
+          </p>
+          <p>
+            <input type="checkbox" name="types" id="mobility" value="mobility">
+            <label for="mobility">Reduced Mobility</label>
+          </p>
+          <p>
+            <input type="checkbox" name="types" id="cognitive" value="cognitive">
+            <label for="cognitive">Cognitive</label>
+          </p>
+          <p>
+            <input type="checkbox" name="types" id="connection speed" value="speed">
+            <label for="connection speed">Connection Speed</label>
+          </p>
+          <p>
+            <input type="checkbox" name="types" id="other" value="other">
+            <label for="other">Other</label>
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend>Have you ever researched available healthcare resources online?</legend>
+          <p>
+            <input type="radio" name="research" id="no-reaserch" value="No">
+            <label for="no-research">No</label>
+          </p>
+          <p>
+            <input type="radio" name="research" id="researched" value="Yes">
+            <label for="researched">Yes</label>
+          </p>
+          <p>
+            <input type="radio" name="research" id="not-sure" value="Not Sure">
+            <label for="not-sure">Not Sure</label>
+          </p>
+        </fieldset>
+        <div class="wrap">
+
+            <label class="statement">How easy was it to research online?</label>
+            <ul class='likert'>
+              <li>
+                <input type="radio" name="likert1" value="very difficult">
+                <label>Very Difficult</label>
+              </li>
+              <li>
+                <input type="radio" name="likert1" value="somewhat difficult">
+                <label>Somewhat Difficult</label>
+              </li>
+              <li>
+                <input type="radio" name="likert1" value="neutral">
+                <label>No experience or no opinion.</label>
+              </li>
+              <li>
+                <input type="radio" name="likert1" value="somewhat easy">
+                <label>Somewhat easy</label>
+              </li>
+              <li>
+                <input type="radio" name="likert1" value="easy">
+                <label>Easy</label>
+              </li>
+            </ul>
+        </div>
+        <fieldset>
+          <legend>Do you use assistive technology to access the web?</legend>
+          <p>
+            <input type="radio" name="assistive" id="no-assist" value="no">
+            <label for="no-assistive">No</label>
+          </p>
+          <p>
+            <input type="radio" name="assistive" id="yes-assist" value="yes">
+            <label for="yes-assist">Yes</label>
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend>What type of services have you researched online?</legend>
+          <p>
+            <input type="checkbox" name="topics" id="appointments" value="appointments">
+            <label for="appointments">Appointments</label>
+          </p>
+          <p>
+            <input type="checkbox" name="topics" id="directions" value="directions">
+            <label for="directions">Location and Directions</label>
+          </p>
+          <p>
+            <input type="checkbox" name="topics" id="pharmacy" value="pharmacy">
+            <label for="pharmacy">Pharmacy Services</label>
+          </p>
+          <p>
+            <input type="checkbox" name="topics" id="specialist" value="specialist">
+            <label for="cognitive">Cognitive</label>
+          </p>
+          <p>
+            <input type="checkbox" name="types" id="connection speed" value="speed">
+            <label for="connection speed">Connection Speed</label>
+          </p>
+          <p>
+            <input type="checkbox" name="types" id="other" value="other">
+            <label for="other">Other</label>
+          </p>
+        </fieldset>
+        <div class="wrap">
+
+            <label class="statement">If you've used assistive technology, how well is it worked with hospital-related websites?</label>
+            <ul class='likert'>
+              <li>
+                <input type="radio" name="likert2" value="horrible">
+                <label>Website unusable.</label>
+              </li>
+              <li>
+                <input type="radio" name="likert2" value="difficult">
+                <label>Somewheat difficult.</label>
+              </li>
+              <li>
+                <input type="radio" name="likert2" value="neutral">
+                <label>Neutral or i haven't used assisitive technology.</label>
+              </li>
+              <li>
+                <input type="radio" name="likert2" value="Somewhat comfortable">
+                <label>It worked ok.</label>
+              </li>
+              <li>
+                <input type="radio" name="likert2" value="easy">
+                <label>It was a smooth process.</label>
+              </li>
+            </ul>
+        </div>
+
+        <div class="buttons">
+            <button class="clear">Clear</button>
+            <button class="submit">Submit</button>
+       </div>
+
+    </form>
+</html>
