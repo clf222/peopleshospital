@@ -6,7 +6,7 @@
   </head>
   <body>
     <h1>Hospital Website Survey</h1>
-      <form action="https://formspree.io/clfranies@comcast.net" method="POST">
+      <form action="https://formspree.io/clfrancies@comcast.net" method="POST">
         <fieldset>
           <legend>How do you access the web most frequently?</legend>
           <p>
@@ -29,27 +29,27 @@
 
         <div class="wrap">
 
-            <label class="statement">Rate you comfort level with technology</label>
+            <p class="statement">Rate you comfort level with technology</p>
             <ul class='likert'>
               <li>
-                <input type="radio" name="likert" value="hate">
-                <label>I hate technology.</label>
+                <input type="radio" name="likert" id="hate technology" value="hate">
+                <label for="hate technology">I hate technology.</label>
               </li>
               <li>
-                <input type="radio" name="likert" value="uncomfortable">
-                <label>I'm uncomfortable with it but I try.</label>
+                <input type="radio" name="likert" id="uncomfortable" value="uncomfortable">
+                <label for="uncomfortable">I'm uncomfortable with it but I try.</label>
               </li>
               <li>
-                <input type="radio" name="likert" value="neutral">
-                <label>I can take it or leave it.</label>
+                <input type="radio" name="likert" id = "no-opinion" value="neutral">
+                <label for="no-opinion">I can take it or leave it.</label>
               </li>
               <li>
-                <input type="radio" name="likert" value="Somewhat comfortable">
-                <label>I'm somewhat comfortable.</label>
+                <input type="radio" name="likert" id = "somewhat" value="Somewhat comfortable">
+                <label for = "somewhat">I'm somewhat comfortable.</label>
               </li>
               <li>
-                <input type="radio" name="likert" value="enjoy">
-                <label>I enjoy using technology</label>
+                <input type="radio" name="likert" id = "enjoy" value="enjoy">
+                <label for = "enjoy">I enjoy using technology</label>
               </li>
             </ul>
         </div>
@@ -84,8 +84,8 @@
             <label for="cognitive">Cognitive</label>
           </p>
           <p>
-            <input type="checkbox" name="types" id="connection speed" value="speed">
-            <label for="connection speed">Connection Speed</label>
+            <input type="checkbox" name="types" id="connection-speed" value="speed">
+            <label for="connection-speed">Connection Speed</label>
           </p>
           <p>
             <input type="checkbox" name="types" id="other" value="other">
@@ -112,24 +112,24 @@
             <label class="statement">How easy was it to research online?</label>
             <ul class='likert'>
               <li>
-                <input type="radio" name="likert1" value="very difficult">
-                <label>Very Difficult</label>
+                <input type="radio" name="likert1" id = "very-diff" value="very difficult">
+                <label for = "very-diff">Very Difficult</label>
               </li>
               <li>
-                <input type="radio" name="likert1" value="somewhat difficult">
-                <label>Somewhat Difficult</label>
+                <input type="radio" name="likert1" id = "somewhat-diff" value="somewhat difficult">
+                <label for = "somewhat-diff">Somewhat Difficult</label>
               </li>
               <li>
-                <input type="radio" name="likert1" value="neutral">
-                <label>No experience or no opinion.</label>
+                <input type="radio" name="likert1" id = "no-opinion" value="neutral">
+                <label for = "no-opinion">No experience or no opinion.</label>
               </li>
               <li>
-                <input type="radio" name="likert1" value="somewhat easy">
-                <label>Somewhat easy</label>
+                <input type="radio" name="likert1" id = "somewhat" value="somewhat easy">
+                <label for = "somewhat">Somewhat easy</label>
               </li>
               <li>
-                <input type="radio" name="likert1" value="easy">
-                <label>Easy</label>
+                <input type="radio" name="likert1" id = "easy" value="easy">
+                <label for = "easy">Easy</label>
               </li>
             </ul>
         </div>
@@ -137,11 +137,11 @@
           <legend>Do you use assistive technology to access the web?</legend>
           <p>
             <input type="radio" name="assistive" id="no-assist" value="no">
-            <label for="no-assistive">No</label>
+            <label for="assistive">No</label>
           </p>
           <p>
             <input type="radio" name="assistive" id="yes-assist" value="yes">
-            <label for="yes-assist">Yes</label>
+            <label for="assist">Yes</label>
           </p>
         </fieldset>
         <fieldset>
@@ -160,40 +160,33 @@
           </p>
           <p>
             <input type="checkbox" name="topics" id="specialist" value="specialist">
-            <label for="cognitive">Cognitive</label>
+            <label for="topics">Specialists</label>
           </p>
-          <p>
-            <input type="checkbox" name="types" id="connection speed" value="speed">
-            <label for="connection speed">Connection Speed</label>
-          </p>
-          <p>
-            <input type="checkbox" name="types" id="other" value="other">
-            <label for="other">Other</label>
-          </p>
+
         </fieldset>
         <div class="wrap">
 
-            <label class="statement">If you've used assistive technology, how well is it worked with hospital-related websites?</label>
+            <p class="statement">If you've used assistive technology, how well is it worked with hospital-related websites?</p>
             <ul class='likert'>
               <li>
-                <input type="radio" name="likert2" value="horrible">
-                <label>Website unusable.</label>
+                <input type="radio" name="likert2" id = "horrible" value="horrible">
+                <label for = "horrible">Website unusable.</label>
               </li>
               <li>
-                <input type="radio" name="likert2" value="difficult">
-                <label>Somewheat difficult.</label>
+                <input type="radio" name="likert2" id = "difficult" value="difficult">
+                <label for = "difficult">Somewheat difficult.</label>
               </li>
               <li>
-                <input type="radio" name="likert2" value="neutral">
-                <label>Neutral or i haven't used assisitive technology.</label>
+                <input type="radio" name="likert2" id = "neutral" value="neutral">
+                <label for = "neutral">Neutral or i haven't used assisitive technology.</label>
               </li>
               <li>
-                <input type="radio" name="likert2" value="Somewhat comfortable">
-                <label>It worked ok.</label>
+                <input type="radio" name="likert2" id = "comfortable" value="Somewhat comfortable">
+                <label for = "comfortable">It worked ok.</label>
               </li>
               <li>
-                <input type="radio" name="likert2" value="easy">
-                <label>It was a smooth process.</label>
+                <input type="radio" name="likert2" id="very-easy" value="easy">
+                <label for  = "very-easy">It was a smooth process.</label>
               </li>
             </ul>
         </div>
