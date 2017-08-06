@@ -1,7 +1,10 @@
 body {
   font: 16px Arial, sans-serif;
 }
-
+.textarea {
+  width: 36em;
+  height: 3em;
+}
 .wrap {
   font:12px Arial, san-serif;
 }
