@@ -111,7 +111,7 @@
         </fieldset>
         <fieldset >
           <legend for ="no-research">If you haven't researched healthcare resource online, why not?</legend>
-          <input type="textarea" id = "no-research" name = "no-research" rows = "4" class = "textarea"></input>
+          <textarea id = "no-research" name = "no-research" ></textarea>
         </fieldset>
         <div class="wrap">
 
@@ -199,6 +199,27 @@
             </ul>
         </div>
       </fieldset>
+      <fieldset>
+        <legend>What type of assistive technology do use use most commonly?</legend>
+        <p>
+          <input type="radio" name="screenreader" id="screenreader" value="screenreader">
+          <label for="screenreader">Screenreader</label>
+        </p>
+        <p>
+          <input type="radio" name="maginfication-software" id="magnification-software" value="magnification">
+          <label for="magnification-software>Magnification software</label>
+        </p>
+        <p>
+          <input type="radio" name="alternative-input" id= "alternative-input" value="alternative">
+          <label for="not-sure">Alternative input device/label>
+        </p>
+        <p>
+          <input type="radio" name="something-different" id= "something-different" value = "different">
+          <label for="something-different">Alternative input device/label>
+        </p>
+      </fieldset>
+      <label for="additional-info">What would you like designers to know about making websites easier for everyone to use?</label><br>
+      <textarea id="additional-info" name="additional-info"></textarea>
 
         <div class="buttons">
             <button class="clear">Clear</button>
